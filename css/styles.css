@@ -199,15 +199,15 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
-  display: inline-block;
-  vertical-align: top;
-  width: 50px;
-  height: 50px;
-  margin-right: 20px;
-  margin-top: 15px;
-    }
 }
-
+.logo {  /* logo on navbar */
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
 svg {
   overflow: hidden;
   vertical-align: middle;
