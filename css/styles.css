@@ -64,7 +64,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #bd2130;
+  color: #0f0049;
   text-align: left;
   background-color: #36393e;
 }
@@ -6127,7 +6127,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #37393e !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -10162,7 +10162,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+  background-color: #505255;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
