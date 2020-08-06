@@ -9,9 +9,9 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */ 
+ */
 
- /* 
+ /*
  NavBar = #010328
 Background = #36393e */
 :root {
@@ -224,10 +224,9 @@ img {
 .logo {  /* logo on navbar */
     display: inline-block;
     vertical-align: top;
-    width: 80px;
-    height: 80px;
+    width: 84px;
+    height: 84px;
     margin-right: 20px;
-    margin-top: 15px;
   }
 svg {
   overflow: hidden;
