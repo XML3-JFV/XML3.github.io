@@ -203,7 +203,7 @@ img {
 .logo {  /* logo on navbar */
     display: inline-block;
     vertical-align: top;
-    width: 50px;
+    width: 100px;
     height: 50px;
     margin-right: 20px;
     margin-top: 15px;
