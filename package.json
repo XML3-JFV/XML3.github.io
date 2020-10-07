@@ -1,0 +1,25 @@
+{
+  "name": "xml3",
+  "version": "1.0.0",
+  "description": "xml3 main website",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XML3-JFV/XML3.github.io.git"
+  },
+  "author": "xml3 members",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XML3-JFV/XML3.github.io/issues"
+  },
+  "homepage": "https://github.com/XML3-JFV/XML3.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
