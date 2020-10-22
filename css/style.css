@@ -7,6 +7,7 @@
  /* SEARCH TERMS
   * orange nav = orange button of the navbar
   * logo = css for logo on navbar
+  * navbarcss = css for navbar
  */
 :root {
   --blue: #007bff;
@@ -3617,6 +3618,7 @@ input[type="button"].btn-block {
 .tab-content > .active {
   display: block; }
 
+/* navbarcss */
 .navbar {
   position: relative;
   display: -webkit-box;
@@ -3636,6 +3638,7 @@ input[type="button"].btn-block {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    border-radius: 25px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-align: center;
@@ -8486,6 +8489,7 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 16px;
     padding-top: 20px;
+    border-radius: 25px;
     padding-bottom: 19px;
     padding-left: 25px;
     padding-right: 25px;
