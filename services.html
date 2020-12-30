@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="css/animate.css">
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
   
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -46,7 +47,7 @@
 	</nav>
 	<!-- END nav -->
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('img/background.jpg');" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
   <div class="container">
     <div class="row no-gutters slider-text align-items-end justify-content-start">
@@ -58,64 +59,58 @@
  </div>
 </section>
 
-<section class="ftco-section bg-half-light">
- <div class="container">
-  <div class="row justify-content-center mb-5 pb-2">
-    <div class="col-md-8 text-center heading-section ftco-animate">
-     <span class="subheading">Our Services</span>
-     <h2 class="mb-4">We Offer Services</h2>
-   </div>
- </div>
- <div class="row">
-   <div class="col-md-4">
-    <div class="services-wrap ftco-animate">
-     <div class="img" style="background-image: url(images/website.png);"></div>
-     <div class="text">
-      <div class="icon"><span class="flaticon-architect"></span></div>
-      <h2>Web Design/Web Development</h2>
-      <p>We offer web design and Web development at a resonnable and affordable cost</p>
-      <a href="#" class="btn-custom">Read more</a>
-    </div>
-  </div>
-</div>
-<div class="col-md-4">
-  <div class="services-wrap ftco-animate">
-   <div class="img" style="background-image: url(images/services-2.png);"></div>
-   <div class="text">
-    <div class="icon"><span class="flaticon-worker"></span></div>
-    <h2>Database Management</h2>
-    <p>We offer proffesional help in setting up your Database for your buisness so it can be safe and secure for your company and customers</p>
-    <a href="#" class="btn-custom">Read more</a>
-  </div>
-</div>
-</div>
-<div class="col-md-4">
-  <div class="services-wrap ftco-animate">
-   <div class="img" style="background-image: url(images/Vid.png);"></div>
-   <div class="text">
-    <div class="icon"><span class="flaticon-hammer"></span></div>
-    <h2>Video Editing</h2>
-    <p>We also offer video Editing services to help out our customers if they need help with a video.</p>
-    <a href="#" class="btn-custom">Read more</a>
-  </div>
-</div>
-</div>
-
-<div class="col-md-4">
-  <div class="services-wrap ftco-animate">
-   <div class="img" style="background-image: url(images/NewLogo.png);"></div>
-   <div class="text">
-    <div class="icon"><span class="flaticon-architect"></span></div>
-    <h2>Logo design </h2>
-    <p>We also offer logo design so you that is very professionally done.</p>
-    <a href="#" class="btn-custom">Read more</a>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<!-- Portfolio Grid-->
+<section class="ftco-section bg-half-light bg-light" id="portfolio">
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-2">
+      <div class="col-md-8 text-center heading-section ftco-animate">
+       <span class="subheading">Our Services</span>
+       <h2 class="mb-4">We Offer Services</h2>
+     </div>
+  
+      <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                      </div>
+                      <img class="img-fluid" src="images/website.png" alt="" />
+                  </a>
+                  <div class="portfolio-caption">
+                      <div class="portfolio-caption-heading">Professional Web Design</div>
+                      <div class="portfolio-caption-subheading text-muted">Web Design/Web Development</div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                      </div>
+                      <img class="img-fluid" src="images/services-2.png" alt="" />
+                  </a>
+                  <div class="portfolio-caption">
+                      <div class="portfolio-caption-heading">Databases</div>
+                      <div class="portfolio-caption-subheading text-muted">Database Management</div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                      </div>
+                      <img class="img-fluid" src="images/Vid.png" alt="" />
+                  </a>
+                  <div class="portfolio-caption">
+                      <div class="portfolio-caption-heading">Video Editing </div>
+                      <div class="portfolio-caption-subheading text-muted">Video Editing</div>
+                  </div>
+              </div>
+          
 </section>
 
 <footer class="ftco-footer">
@@ -251,6 +246,89 @@
 
 
 
+<!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" alt="Close modal" /></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                              <div class="modal-body">
+                                  <!-- Project Details Go Here-->
+                                  <h2 class="mb-4">Professional Web Design</h2>
+                                  <img class="img-fluid d-block mx-auto" src="images/web-design-01.png" alt="" />
+                                  <p>We offer web design and Web development at a resonnable and affordable cost</p>
+                                  <ul class="list-inline">
+                                   
+                                  </ul>
+                                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                      <i class="fas fa-times mr-1"></i>
+                                      Close Project
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Modal 2-->
+      <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" alt="Close modal" /></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                              <div class="modal-body">
+                                  <!-- Project Details Go Here-->
+                                  <h2 class="mb-4">Database Management</h2>
+                                  <img class="img-fluid d-block mx-auto" src="images/services-2.png" alt="" />
+                                  <p>We offer proffesional help in setting up your Database for your buisness so it can be safe and secure for your company and customers</p>
+                                  <ul class="list-inline">
+                                      
+                                  </ul>
+                                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                      <i class="fas fa-times mr-1"></i>
+                                      Close Project
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Modal 3-->
+      <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" alt="Close modal" /></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                              <div class="modal-body">
+                                  <!-- Project Details Go Here-->
+                                  <h2 class="mb-4">Video Editing</h2>
+                                  <img class="img-fluid d-block mx-auto" src="images/Vid.png" alt="" />
+                                  <p>We also offer video Editing services to help out our customers if they need help with a video.</p>
+                                  <ul class="list-inline">
+                                  </ul>
+                                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                      <i class="fas fa-times mr-1"></i>
+                                      Close Project
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
 <!-- loader -->
 <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
@@ -270,6 +348,8 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="js/google-map.js"></script>
 <script src="js/agency.min.js"></script>
+<script src="js/scripts.js"></script>
+
 
 <script src="js/main.js"></script>
 
