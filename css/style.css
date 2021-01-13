@@ -4949,11 +4949,14 @@ a.close.disabled {
 .toast-body {
   padding: 0.75rem; }
 
-.modal-open {
-  overflow: hidden; }
-  .modal-open .modal {
-    overflow-x: hidden;
-    overflow-y: auto; }
+  .modal-open {
+    overflow: hidden; 
+    padding-right: 0px !important}
+    .modal-open .modal {
+      overflow-x: hidden;
+      overflow-y: auto; 
+      padding-right: 0px !important}
+  
 
 .modal {
   position: fixed;
